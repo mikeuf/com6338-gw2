@@ -3,24 +3,40 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Harry Potter</title>
+<title>Group Work 2 – Accio Responsive!</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/hamburger-menu.js"></script>
 </head>
 
 <body>
-
+<script src="scripts/hamburger-menu.js"></script>
 <div id="container">
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+
     <header>
         <h1>Harry Potter</h1>
         <nav>
         	<details>
             	<summary>Navigation</summary>
+              <div id="menu">
             		<ul>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
             		</ul>
+              </div>
+              <div id="desktop-menu">
+            		<ul>
+                		<li><a href="#">link</a></li>
+                		<li><a href="#">link</a></li>
+                		<li><a href="#">link</a></li>
+                		<li><a href="#">link</a></li>
+            		</ul>
+              </div>
             </details>        
         </nav>
     </header>

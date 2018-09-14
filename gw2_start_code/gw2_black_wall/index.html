@@ -6,37 +6,45 @@
 <title>Group Work 2 – Accio Responsive!</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]>
+            <script src="js/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+  
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-<script src="scripts/hamburger-menu.js"></script>
+
 <div id="container">
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
 
+
     <header>
         <h1>Harry Potter</h1>
-        <nav>
-        	<details>
-            	<summary>Navigation</summary>
-              <div id="menu">
+
+        <script src="js/hamburger.js"></script>
+                <nav class="menu">
             		<ul>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
             		</ul>
-              </div>
-              <div id="desktop-menu">
+              
+          </nav>
+
+          <nav class="desktop-menu">
             		<ul>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
                 		<li><a href="#">link</a></li>
             		</ul>
-              </div>
-            </details>        
+        
+                  
         </nav>
     </header>
 
@@ -86,6 +94,8 @@
 
     <footer>
     I solemnly swear that I am up to no good.</footer>
+
+    
 </div>
 
 </body>
